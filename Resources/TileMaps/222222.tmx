@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="1">
+<map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="3">
  <tileset firstgid="1" source="22222.tsx"/>
- <layer id="1" name="Tile Layer 1" width="20" height="10">
+ <tileset firstgid="49" source="MetaSet.tsx"/>
+ <layer id="1" name="Background" width="20" height="10">
   <data encoding="base64" compression="zlib">
-   eJyTY2BgkKMBZgRiJgKYmQTzOIGYiwDmJsM8ESAWAmJRKpkH1OMgj8O95JgnAw0rWSqZR63wE4SGGz4sTIJ5gxUDAIn9Eog=
+   eJyTY2BgkKMBZgRiJgKYGapWDQdGNo8TiLkIYG4s+uSQ7MBmnggQCwGxKJXMA+pxwOVeXObh868MNKxkSTQPXYyS8MMmJggNN3xYGE0vrrglBVOilxwMAK4AEzc=
   </data>
  </layer>
- <layer id="2" name="Tile Layer 2" width="20" height="10">
+ <layer id="4" name="Items" width="20" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdsAExOxBzkKEXG+ADYn4gFoDyWYCYlQLzxIBYHIglgFgfiHmAmJcSByIBBSqZY0Alc3CZpU8lsxUo1A9zG6XmEAKU+lcBhzgAg70CRw==
+   eJxjYBh+QB4LHkzmoZtNTUBtt1HbfUMNAAAqwQGz
   </data>
  </layer>
+ <layer id="6" name="MetaInfo" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYKANMCQS41OLbh6xdhphwYPJPGRghEOcUvOwqSXVPFx+RTaP2DhGV0suoEQvOQAAJUoMgA==
+  </data>
+ </layer>
+ <objectgroup id="3" name="Object Layer 1">
+  <object id="2" name="SpawnPoint" x="175" y="145"/>
+ </objectgroup>
 </map>
