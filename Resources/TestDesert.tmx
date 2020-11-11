@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="right-up" compressionlevel="0" width="20" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="2">
+ <tileset firstgid="1" source="TestDesert.tsx"/>
+ <tileset firstgid="49" source="MetaSet.tsx"/>
+ <layer id="1" name="Background" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eAGljtsKAjEMBauCrgjeFtYbSERQVNj//zwn0IVSju2CD0Pak2bSUwjhnHDhfP2DWzZ7j3ej1lB7le+BK8W96d3Pninfi/wde14/4O/nsBA0sW9U5fOsF7012UawJSv9T+14MlPyqZlf/zJc7uvgIDjG/oQ6TXDfDPJdRua+GksxuxKZkZUY9o/1De9rdcfefUbL/QtGpRXn
+  </data>
+ </layer>
+ <layer id="3" name="Items" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eAFjYKA+kKe+kaMmjoYARgjQI50BAGXwAD8=
+  </data>
+ </layer>
+ <layer id="4" name="MetaInfo" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eAGdklEOgDAIQ7nSvP/h9MU0QVJwGcnceLTlxxURq5ynPS6yruSmp+oO17/K71d+0drDd5m00nPrzWyqSTfNuswTT5fVcbfDMedHlw8a53Wsy6vcefNO91YGs/yfwV2e9H+32wW7AZscCoo=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="SpawnPoint" x="48" y="240"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<result>
+  <total>3</total>
+  <page>1</page>
+  <per>10</per>
+  <items>
+    <item>
+      <seq>1</seq>
+      <subject>안녕하세요-1</subject>
+      <name>테스트1</name>
+      <phone>010-1111-2222</phone>
+    </item>
+    <item>
+      <seq>2</seq>
+      <subject>안녕하세요-2</subject>
+      <name>테스트2</name>
+      <phone>010-2222-3333</phone>
+    </item>
+    <item>
+      <seq>3</seq>
+      <subject>안녕하세요-3</subject>
+      <name>테스트3</name>
+      <phone>010-3333-4444</phone>
+    </item>
+  </items>
+</result>

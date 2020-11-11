@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx">
+      <UniqueIdentifier>{27f708b2-5a87-4016-bd4d-b653a7401cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic">
+      <UniqueIdentifier>{ed352d51-e998-4883-876e-118605a63d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_01 %28sprite%29">
+      <UniqueIdentifier>{0f98af73-03e0-4c77-bcef-342ac8144510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_02 %28lable%29">
+      <UniqueIdentifier>{7604a428-c774-4a9c-9956-24065f3825a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_03 %28menu%29">
+      <UniqueIdentifier>{e042e42d-58e8-41e5-bd85-14dec45204b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\hw01">
+      <UniqueIdentifier>{4612e53c-188c-48ec-baf1-b179f8db3f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_05 %28 animation %29">
+      <UniqueIdentifier>{61ed17f3-1d09-4fa2-8417-c32691590857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_04 %28 action %29">
+      <UniqueIdentifier>{b9ff7393-fae0-47e3-baca-a5e9ed137163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_06 %28scheduler%29">
+      <UniqueIdentifier>{23052cd5-7428-4ced-98e1-1a74320dc9d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_08 %28 collision %29">
+      <UniqueIdentifier>{3c69a880-d13b-4fb2-956c-0408d40a4e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_07 %28 Director %29">
+      <UniqueIdentifier>{9fb32195-e560-4b4b-bbaa-5b1ed2f50797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_09 %28 touch %29">
+      <UniqueIdentifier>{f12cff83-5e28-4a26-b744-66988b0070c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_09 %28 touch %29\Example_09_03 %28 drag&amp;drop %29">
+      <UniqueIdentifier>{1ae841ae-39d4-4d41-a7b7-ec9be5a32f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_09 %28 touch %29\Example_09_01 %28 single touch %29">
+      <UniqueIdentifier>{9dd41c75-2f65-41ea-8f8a-ef304ae19f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_09 %28 touch %29\Example_09_02 %28 multi touch %29">
+      <UniqueIdentifier>{7256cb6e-66f4-4bb4-b7f4-7996deb57df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_10 %28 keyboard %29">
+      <UniqueIdentifier>{3eaa7bb3-6d70-40de-8bdf-7218d0e65067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_11 %28 mouse %29">
+      <UniqueIdentifier>{663a8ff8-c1fc-4620-b603-e3a3b8f9dff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_12 %28 progress timer %29">
+      <UniqueIdentifier>{3d7b9218-6e76-4339-904c-3e2f8d20af54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_13 %28 sound %29">
+      <UniqueIdentifier>{03e3efdb-e144-42b5-bc5c-b2d5e41ca76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_14 %28 transition Scene %29">
+      <UniqueIdentifier>{6585dbfb-c430-4fe4-9bc7-26fa1841874a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_14 %28 transition Scene %29\Example_1401">
+      <UniqueIdentifier>{b318d253-aaf2-435c-aeb0-6f8a02b4acc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example_14 %28 transition Scene %29\Example_1402">
+      <UniqueIdentifier>{5d03c8cd-6b4b-432c-ba62-eb8d19d5d1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\hw02">
+      <UniqueIdentifier>{3a29af4c-6d7b-49b5-885e-09e51ad51174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example15 %28 paticle %29">
+      <UniqueIdentifier>{f6c8d61c-6eab-4594-8140-b34382ba3490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example16 %28 UserDefault %29">
+      <UniqueIdentifier>{754daa42-3a26-4ee0-b986-5cb1cca4eec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example17 %28 EditBox %29">
+      <UniqueIdentifier>{3eb73ecc-8ff7-4d16-af39-f6c963809168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example18 %28 ScrollView %29">
+      <UniqueIdentifier>{01dfe57c-2a17-4773-bb79-9e02711211e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example19 %28 TableView %29">
+      <UniqueIdentifier>{dbcaa59d-9ec8-4751-976b-149138428742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example20 %28 2d camera %29">
+      <UniqueIdentifier>{4352d1bb-881e-469b-b33b-611bf1d98ac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\01. basic\Example21 %28 import file %29">
+      <UniqueIdentifier>{c77d1305-6e18-4313-8b49-f17cdc0cb07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\hw03">
+      <UniqueIdentifier>{15ba0508-0846-48e1-a35e-b90ae602ed9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\02. advanced">
+      <UniqueIdentifier>{ad2ef51b-950d-4311-90f9-8076e2869491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\02. advanced\Example_22 %28physicEngine %29">
+      <UniqueIdentifier>{b8f3495f-ab7d-4aa2-8d2b-7242d9cb319b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\02. advanced\Example_24 %28 type writer %29">
+      <UniqueIdentifier>{f8887962-3af4-49ea-8f46-5cdb67d889c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\02. advanced\Example_23%28 PhysicsEngine2 %29">
+      <UniqueIdentifier>{6ffcf6f5-da99-4531-ab40-e4129c5417f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\02. advanced\Example_25 %28 rayCast %29">
+      <UniqueIdentifier>{809aad23-6739-4844-8049-9c1d2a9f24a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\02. advanced\Example_27 %28 ui %29">
+      <UniqueIdentifier>{40ec369f-f779-4d6e-9185-db5d079f00e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\02. advanced\Example_26 %28 loading %29">
+      <UniqueIdentifier>{c31ae5b3-d26c-43a3-a7ff-d56bc67ea75f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\02. advanced\Example_28">
+      <UniqueIdentifier>{7f70b134-17f8-4bb5-8867-d908631d5415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\touchPad">
+      <UniqueIdentifier>{35dcb4c0-a454-4665-9b16-f7c5d47b8945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\02. advanced\Example_29">
+      <UniqueIdentifier>{f2549193-17d2-47e0-9747-d6dbea97b19a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example01.cpp">
+      <Filter>cocos2dx\01. basic\Example_01 %28sprite%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example02.cpp">
+      <Filter>cocos2dx\01. basic\Example_02 %28lable%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example03.cpp">
+      <Filter>cocos2dx\01. basic\Example_03 %28menu%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example04.cpp">
+      <Filter>cocos2dx\01. basic\Example_04 %28 action %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hw01.cpp">
+      <Filter>cocos2dx\hw01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example05.cpp">
+      <Filter>cocos2dx\01. basic\Example_05 %28 animation %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example06.cpp">
+      <Filter>cocos2dx\01. basic\Example_06 %28scheduler%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example07.cpp">
+      <Filter>cocos2dx\01. basic\Example_07 %28 Director %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example08.cpp">
+      <Filter>cocos2dx\01. basic\Example_08 %28 collision %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example0901.cpp">
+      <Filter>cocos2dx\01. basic\Example_09 %28 touch %29\Example_09_01 %28 single touch %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example0902.cpp">
+      <Filter>cocos2dx\01. basic\Example_09 %28 touch %29\Example_09_02 %28 multi touch %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example0903.cpp">
+      <Filter>cocos2dx\01. basic\Example_09 %28 touch %29\Example_09_03 %28 drag&amp;drop %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example10.cpp">
+      <Filter>cocos2dx\01. basic\Example_10 %28 keyboard %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example11.cpp">
+      <Filter>cocos2dx\01. basic\Example_11 %28 mouse %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example12.cpp">
+      <Filter>cocos2dx\01. basic\Example_12 %28 progress timer %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example13.cpp">
+      <Filter>cocos2dx\01. basic\Example_13 %28 sound %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example14.cpp">
+      <Filter>cocos2dx\01. basic\Example_14 %28 transition Scene %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example1401.cpp">
+      <Filter>cocos2dx\01. basic\Example_14 %28 transition Scene %29\Example_1401</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Exmaple1402.cpp">
+      <Filter>cocos2dx\01. basic\Example_14 %28 transition Scene %29\Example_1402</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hw02.cpp">
+      <Filter>cocos2dx\hw02</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example15.cpp">
+      <Filter>cocos2dx\01. basic\Example15 %28 paticle %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example16.cpp">
+      <Filter>cocos2dx\01. basic\Example16 %28 UserDefault %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example17.cpp">
+      <Filter>cocos2dx\01. basic\Example17 %28 EditBox %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example18.cpp">
+      <Filter>cocos2dx\01. basic\Example18 %28 ScrollView %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example19.cpp">
+      <Filter>cocos2dx\01. basic\Example19 %28 TableView %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example20.cpp">
+      <Filter>cocos2dx\01. basic\Example20 %28 2d camera %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example21.cpp">
+      <Filter>cocos2dx\01. basic\Example21 %28 import file %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hw0301.cpp">
+      <Filter>cocos2dx\hw03</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Introduce.cpp">
+      <Filter>cocos2dx\hw03</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example22.cpp">
+      <Filter>cocos2dx\02. advanced\Example_22 %28physicEngine %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example_24.cpp">
+      <Filter>cocos2dx\02. advanced\Example_24 %28 type writer %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example_23.cpp">
+      <Filter>cocos2dx\02. advanced\Example_23%28 PhysicsEngine2 %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example25.cpp">
+      <Filter>cocos2dx\02. advanced\Example_25 %28 rayCast %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example26.cpp">
+      <Filter>cocos2dx\02. advanced\Example_26 %28 loading %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example27.cpp">
+      <Filter>cocos2dx\02. advanced\Example_27 %28 ui %29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example28.cpp">
+      <Filter>cocos2dx\02. advanced\Example_28</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TouchPad.cpp">
+      <Filter>cocos2dx\touchPad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SneakyButton.cpp">
+      <Filter>cocos2dx\touchPad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SneakyJoystickSkinnedBase.cpp">
+      <Filter>cocos2dx\touchPad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SneakyButtonSkinnedBase.cpp">
+      <Filter>cocos2dx\touchPad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SneakyJoystick.cpp">
+      <Filter>cocos2dx\touchPad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Example29.cpp">
+      <Filter>cocos2dx\02. advanced\Example_29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example01.h">
+      <Filter>cocos2dx\01. basic\Example_01 %28sprite%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example02.h">
+      <Filter>cocos2dx\01. basic\Example_02 %28lable%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example03.h">
+      <Filter>cocos2dx\01. basic\Example_03 %28menu%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example04.h">
+      <Filter>cocos2dx\01. basic\Example_04 %28 action %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hw01.h">
+      <Filter>cocos2dx\hw01</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example05.h">
+      <Filter>cocos2dx\01. basic\Example_05 %28 animation %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example06.h">
+      <Filter>cocos2dx\01. basic\Example_06 %28scheduler%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example07.h">
+      <Filter>cocos2dx\01. basic\Example_07 %28 Director %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example08.h">
+      <Filter>cocos2dx\01. basic\Example_08 %28 collision %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example0901.h">
+      <Filter>cocos2dx\01. basic\Example_09 %28 touch %29\Example_09_01 %28 single touch %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example0902.h">
+      <Filter>cocos2dx\01. basic\Example_09 %28 touch %29\Example_09_02 %28 multi touch %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example0903.h">
+      <Filter>cocos2dx\01. basic\Example_09 %28 touch %29\Example_09_03 %28 drag&amp;drop %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example10.h">
+      <Filter>cocos2dx\01. basic\Example_10 %28 keyboard %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example11.h">
+      <Filter>cocos2dx\01. basic\Example_11 %28 mouse %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example12.h">
+      <Filter>cocos2dx\01. basic\Example_12 %28 progress timer %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example13.h">
+      <Filter>cocos2dx\01. basic\Example_13 %28 sound %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example1401.h">
+      <Filter>cocos2dx\01. basic\Example_14 %28 transition Scene %29\Example_1401</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Exmaple1402.h">
+      <Filter>cocos2dx\01. basic\Example_14 %28 transition Scene %29\Example_1402</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example14.h">
+      <Filter>cocos2dx\01. basic\Example_14 %28 transition Scene %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hw02.h">
+      <Filter>cocos2dx\hw02</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example15.h">
+      <Filter>cocos2dx\01. basic\Example15 %28 paticle %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example16.h">
+      <Filter>cocos2dx\01. basic\Example16 %28 UserDefault %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example17.h">
+      <Filter>cocos2dx\01. basic\Example17 %28 EditBox %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example18.h">
+      <Filter>cocos2dx\01. basic\Example18 %28 ScrollView %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example19.h">
+      <Filter>cocos2dx\01. basic\Example19 %28 TableView %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example20.h">
+      <Filter>cocos2dx\01. basic\Example20 %28 2d camera %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example21.h">
+      <Filter>cocos2dx\01. basic\Example21 %28 import file %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hw0301.h">
+      <Filter>cocos2dx\hw03</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Introduce.h">
+      <Filter>cocos2dx\hw03</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example22.h">
+      <Filter>cocos2dx\02. advanced\Example_22 %28physicEngine %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example25.h">
+      <Filter>cocos2dx\02. advanced\Example_25 %28 rayCast %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example_24.h">
+      <Filter>cocos2dx\02. advanced\Example_24 %28 type writer %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example_23.h">
+      <Filter>cocos2dx\02. advanced\Example_23%28 PhysicsEngine2 %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example26.h">
+      <Filter>cocos2dx\02. advanced\Example_26 %28 loading %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example27.h">
+      <Filter>cocos2dx\02. advanced\Example_27 %28 ui %29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example28.h">
+      <Filter>cocos2dx\02. advanced\Example_28</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TouchPad.h">
+      <Filter>cocos2dx\touchPad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SneakyJoystickSkinnedBase.h">
+      <Filter>cocos2dx\touchPad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SneakyButtonSkinnedBase.h">
+      <Filter>cocos2dx\touchPad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SneakyButton.h">
+      <Filter>cocos2dx\touchPad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SneakyJoystick.h">
+      <Filter>cocos2dx\touchPad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example29.h">
+      <Filter>cocos2dx\02. advanced\Example_29</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

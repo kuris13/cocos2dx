@@ -1,0 +1,19 @@
+{
+  "string" : "테스트1",
+  "bool" : true,
+  "integer" : 123,
+  "float" : 3.14,
+  
+  "array" : 
+  [
+    {
+      "name" : "테스트2",
+      "age" : 20
+    },
+    
+    {
+      "name" : "테스트3",
+      "age" : 25
+    }
+  ]
+}
