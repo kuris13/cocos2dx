@@ -133,6 +133,12 @@
     <Filter Include="cocos2dx\02. advanced\Example_29">
       <UniqueIdentifier>{f2549193-17d2-47e0-9747-d6dbea97b19a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="cocos2dx\02. advanced\Example_30">
+      <UniqueIdentifier>{53fd7655-077e-44bb-883d-40be9b354c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocos2dx\Test">
+      <UniqueIdentifier>{f3f4d123-cd88-4772-b0e5-cf1f385883c3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -270,6 +276,12 @@
     <ClCompile Include="..\Classes\Example29.cpp">
       <Filter>cocos2dx\02. advanced\Example_29</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Test1.cpp">
+      <Filter>cocos2dx\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\cocos2d-x-3.17.2\tests\cpp-tests\Classes\Box2DTestBed\GLES-Render.cpp">
+      <Filter>cocos2dx\Test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -406,6 +418,15 @@
     </ClInclude>
     <ClInclude Include="..\Classes\Example29.h">
       <Filter>cocos2dx\02. advanced\Example_29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Example30.h">
+      <Filter>cocos2dx\02. advanced\Example_30</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Test1.h">
+      <Filter>cocos2dx\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\cocos2d-x-3.17.2\tests\cpp-tests\Classes\Box2DTestBed\GLES-Render.h">
+      <Filter>cocos2dx\Test</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -76,7 +76,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(EngineRoot);$(EngineRoot)external;$(EngineRoot)cocos\audio\include;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..\Classes;..;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(EngineRoot);$(EngineRoot)external/Box2D/include;$(EngineRoot)external;$(EngineRoot)cocos\audio\include;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..\Classes;..;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -149,6 +149,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)\Resources\" /D /E /I /F /Y
     </PreLinkEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\cocos2d-x-3.17.2\tests\cpp-tests\Classes\Box2DTestBed\GLES-Render.cpp" />
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\Example01.cpp" />
     <ClCompile Include="..\Classes\Example02.cpp" />
@@ -192,10 +193,12 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)\Resources\" /D /E /I /F /Y
     <ClCompile Include="..\Classes\SneakyButtonSkinnedBase.cpp" />
     <ClCompile Include="..\Classes\SneakyJoystick.cpp" />
     <ClCompile Include="..\Classes\SneakyJoystickSkinnedBase.cpp" />
+    <ClCompile Include="..\Classes\Test1.cpp" />
     <ClCompile Include="..\Classes\TouchPad.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\cocos2d-x-3.17.2\tests\cpp-tests\Classes\Box2DTestBed\GLES-Render.h" />
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\Example01.h" />
     <ClInclude Include="..\Classes\Example02.h" />
@@ -227,6 +230,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)\Resources\" /D /E /I /F /Y
     <ClInclude Include="..\Classes\Example27.h" />
     <ClInclude Include="..\Classes\Example28.h" />
     <ClInclude Include="..\Classes\Example29.h" />
+    <ClInclude Include="..\Classes\Example30.h" />
     <ClInclude Include="..\Classes\Example_23.h" />
     <ClInclude Include="..\Classes\Example_24.h" />
     <ClInclude Include="..\Classes\Exmaple1402.h" />
@@ -239,6 +243,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)\Resources\" /D /E /I /F /Y
     <ClInclude Include="..\Classes\SneakyButtonSkinnedBase.h" />
     <ClInclude Include="..\Classes\SneakyJoystick.h" />
     <ClInclude Include="..\Classes\SneakyJoystickSkinnedBase.h" />
+    <ClInclude Include="..\Classes\Test1.h" />
     <ClInclude Include="..\Classes\TouchPad.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>

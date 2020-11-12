@@ -62,6 +62,7 @@
 #include "hw01.h"
 #include "hw0301.h"
 #include "Introduce.h"
+#include "Test1.h"
 
 //define USE_AUDIO_ENGINE 1
 // #define USE_SIMPLE_AUDIO_ENGINE 1
@@ -135,7 +136,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setAnimationInterval(1.0f / 60);
 
     // Set the design resolution
-    glview->setDesignResolutionSize(480, 320, ResolutionPolicy::SHOW_ALL);
+    glview->setDesignResolutionSize(1280, 760, ResolutionPolicy::SHOW_ALL);
    
 
     // create a scene. it's an autorelease object
@@ -174,7 +175,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	//auto scene = Example26::createScene();
 	//auto scene = Example27::createScene();
 	//auto scene = Example28::createScene();
-	auto scene = Example29::createScene();
+	//auto scene = Example29::createScene();
+	auto scene = Test1::createScene();
 	// run
     director->runWithScene(scene);
 

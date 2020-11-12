@@ -59,7 +59,7 @@ void Example29::onEnter()
 	listener->setSwallowTouches(true);
 
 	listener->onTouchBegan = CC_CALLBACK_2(Example29::onTouchBegan, this);
-	listener->onTouchMoved = CC_CALLBACK_2(Example29::onTouchEnded, this);
+	listener->onTouchEnded = CC_CALLBACK_2(Example29::onTouchEnded, this);
 
 
 	_eventDispatcher->addEventListenerWithSceneGraphPriority(listener, this);
@@ -183,7 +183,7 @@ void Example29::setViewPointCenter(cocos2d::Vec2 position)
 
 	Vec2 actualPosition = Vec2(x, y);
 	Vec2 centerOfView = Vec2(winSize.width / 2, winSize.height / 2);
-	Vec2 viewPoint = centerOfView = actualPosition;
+	Vec2 viewPoint = centerOfView - actualPosition;
 
 	this->setPosition(viewPoint);
 	
@@ -194,7 +194,7 @@ cocos2d::Vec2 Example29::tileCoordForPosition(cocos2d::Vec2 position)
 {
 	// 탭으로 선택한 타일의 위치를 가져온다
 	int x = position.x / tmap->getTileSize().width;
-	int y = ((tmap->getTileSize().height * tmap->getTileSize().height) - position.y) / tmap->getTileSize().height;
+	int y = ( (tmap->getTileSize().height * tmap->getTileSize().height) - position.y) / tmap->getTileSize().height;
 
 	return Vec2(x, y);
 }
@@ -205,8 +205,8 @@ void Example29::setPlayerPosition(cocos2d::Vec2 position)
 	Vec2 tileCoord = this->tileCoordForPosition(position);
 
 	// 위에서 구한 타일의 Gid를 받아온다.
-	int tileGid = this->metainfo->getTileGIDAt(tileCoord);
-
+	int tileGid = metainfo->getTileGIDAt(tileCoord);
+	
 	if (tileGid)
 	{
 		// 타일매에서 GID에 해당하는 속성값을 가져오기
@@ -221,12 +221,27 @@ void Example29::setPlayerPosition(cocos2d::Vec2 position)
 				// Wall의 속성값이 YES면 벽이 있으므로 이동이 불가능하도록 return을 시킨다.
 				return;
 			}
-
-
+			// ===================================================
+			// 맵에서 아이템이 위치한 타일의 정볼르 받아온다 
+			std::string item1 = properties.asValueMap()["Items"].asString();
+			if (item1 == "Apple")
+			{
+				// item1에 담긴 string 값이 Apple면 해당 items, metaOnfo 레이어의 타일 삭제
+				this->metainfo->removeTileAt(tileCoord);
+				items->removeTileAt(tileCoord);
+	
+				//아이템 획득 처리
+				log("아이템을 획득하였습니다");
+	
+	
+			}
+	
+	
+	
 		}
 	}
-
-
+	
+	
 	// 매개변수로 들어온 위치에 드래곤을 위치하기
 	dragon->setPosition(position);
 
